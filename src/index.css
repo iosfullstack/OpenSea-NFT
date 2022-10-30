@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background: #5a0562;
+}
+
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+.cards {
+    width: 382px;
+height: 500px;
+margin: 20px;
+border: 1px solid #FCF7FD;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+box-shadow: 0px 4px 24px -1px rgba(184, 66, 208, 0.25);
+backdrop-filter: blur(25px);
+}
+
+
+.img-avata {
+    margin: 25px;
+}
+
+.title {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+color: #FCF7FD;
+margin: 0px 25px;
+}
+
+.number {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+color: #F91A9F;
+}
+
+.details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.owned {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: rgba(252, 247, 253, 0.5);
+}
+
+.own-name {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: #FCF7FD;
+}
+
+.bid > p {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: #FCF7FD;
+}
+
+.bid-now {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/* padding: 5px 8px; */
+gap: 70px;
+}
+
+.bid-now > button {
+    width: 93px;
+height: 36px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+border: none;
+cursor: pointer;
+color: #FCF7FD;
+background: linear-gradient(270deg, #9933A2 -20.43%, #F91A9F 100%);
+}
+
+.img-rf > a {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+margin-left: 10px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.img-rl {
+    margin-right: 10px;
+}

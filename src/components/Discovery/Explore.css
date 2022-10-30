@@ -1,0 +1,189 @@
+.discover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+} 
+
+@media screen and (max-width: 768px) {
+    .discover {
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+
+.explore h2 {
+    width: 540px;
+    /* height: 240px; */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: #FCF7FD;
+}
+
+@media screen and (max-width: 768px) {
+    .explore h2 {
+        width: 100%;
+        font-size: 42px;
+    }
+}
+
+.explore p {
+    width: 534px;
+    height: 96px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FCF7FD;
+}
+
+@media screen and (max-width: 768px) {
+    .explore > p {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+.explore-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.btn-explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 161px;
+    height: 61px;
+    background: #F1D8F3;
+    cursor: pointer;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+    color: #49184E;
+}
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn>p {
+    margin: 10px;
+}
+
+.btn-play {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FCF7FD;
+    cursor: pointer;
+}
+
+.play {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 16px;
+    top: 13px;
+}
+
+.img-avatar {
+    width: 475px;
+    height: 548px;
+    filter: drop-shadow(10px 0px 10px #f2daf4e3);
+    border-radius: 20px 120px;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    width: 480px;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.653) 0%, rgba(255, 255, 255, 0.424) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(192, 162, 198, 0.25);
+    backdrop-filter: blur(20px);
+}
+
+@media screen and (max-width: 768px) {
+    .review {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.review  h4 {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FCF7FD;
+}
+
+.review p {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+color: #FCF7FD;
+}
+
+.downloads {
+    border-right: 3px solid #F1D8F3;
+    padding:0px 40px 0px 40px;
+}
+
+.reviews {
+    border-right: 3px solid #F1D8F3;
+    padding:0px 40px 0px 40px;
+}
+
+.purchase {
+    padding:0px 40px 0px 40px;
+}
+
+.blockchain {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    width: 90%;
+    height: 130px;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .blockchain {
+        width: 100%;
+    }
+}
+
+.blockchain img {
+    width: 170px;
+    height: 33px;
+}

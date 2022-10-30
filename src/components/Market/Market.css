@@ -1,0 +1,77 @@
+.market {
+    display: flex;
+    gap: 15px;
+    margin: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .market {
+        flex-direction: column;
+        padding-left: 24px;
+        padding-right: 24px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        gap: 15px;
+    }
+}
+
+.txt3 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 40px;
+    color: #FCF7FD;
+}
+
+@media screen and (max-width: 768px) {
+    .txt3 {
+        /* width: 100%; */
+        font-size: 36px;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.img-mkt {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FCF7FD;
+    border-radius: 10px;
+}
+
+.market .mkt-txt {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #F91A9F;
+}
+
+@media screen and (max-width: 768px) {
+    .market .mkt-txt {
+        font-size: 26px;
+    }
+}
+
+.mkt-txt1 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FCF7FD;
+}
+
+@media screen and (max-width: 768px) {
+    .mkt-txt1 {
+        font-size: 18px;
+        line-height: normal;
+    }
+}

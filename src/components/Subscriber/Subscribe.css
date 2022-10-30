@@ -1,0 +1,159 @@
+.subscribe {
+    margin-top: 150px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .subscribe {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-top: 120px;
+    }
+}
+
+.subscribe-card {
+    width: 70%;
+    height: 307px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/Rectangle\ 5.png');
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe-card {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) -94%, rgba(255, 255, 255, 0.1) 6%);
+box-shadow: 0px 4px 24px rgba(184, 66, 208, 0.25);
+backdrop-filter: blur(25px);
+        background-image: none;
+    }
+}
+
+.subscribe-card>h3 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.subscribe-card>h3 {
+    font-size: 40px;
+}
+
+.subscribe-card>p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe-card>p {
+        font-size: 18px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+.subscribe-form {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe-form {
+        width: 100%;
+        padding-left: 24px;
+    }
+}
+
+
+.sub-form {
+    width: 569px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    border: none;
+    outline: none;
+    background: rgba(241, 216, 243, 0.5);
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-form {
+        width: 100%;
+    }
+}
+
+.sub-form::placeholder {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 10px;
+    color: rgba(252, 247, 253, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .sub-form::placeholder {
+        font-size: 18px;
+    }
+}
+
+.sub-btn {
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    left: 355px;
+    top: 5px;
+    border: none;
+    background: linear-gradient(180deg, #F91A9F 0%, #9933A2 100%);
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    color: #FCF7FD;
+}
+
+@media only screen 
+and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  .sub-btn {
+    width: 30%;
+    left: 290px;
+    font-size: 16px;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    .sub-btn {
+        width: 30%;
+        left: 460px;
+        font-size: 16px;
+    }
+  }
+
+/* @media screen and (max-width: 768px) {
+    .sub-btn {
+        width: 30%;
+        left: 200px;
+        font-size: 16px;
+    }
+} */

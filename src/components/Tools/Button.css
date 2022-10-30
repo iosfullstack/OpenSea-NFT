@@ -1,0 +1,19 @@
+.btn-explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 161px;
+    height: 61px;
+    background: #F1D8F3;
+    cursor: pointer;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+    color: #49184E;
+}

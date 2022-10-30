@@ -1,0 +1,72 @@
+.seller {
+    margin-top: 150px;
+}
+
+.seller > h3 {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+color: #FCF7FD;
+margin: 40px;
+}
+
+.sell-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+
+.sell-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+width: 378px;
+height: 150px;
+background: rgba(241, 216, 243, 0.5);
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-name {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+color: #FFFFFF;
+}
+
+.d-price {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+.d-sold {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #F91A9F;
+}
+
+.dot {
+    display: flex;
+    gap: 3px;
+}
+
+.dot > div {
+    width: 10px;
+height: 10px;
+border-radius: 50%;
+
+background: #FCF7FD;
+}

@@ -1,0 +1,85 @@
+.collections-tab {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .collections-tab {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+
+
+.collections-tab>h3 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 40px;
+    color: #FCF7FD;
+}
+
+@media screen and (max-width: 768px) {
+    .collections-tab > h3 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 36px;
+    }
+}
+
+.collections-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .collections-btn {
+        width: 100%;
+        gap: 8px;
+    }
+}
+
+.collections-btn>button {
+    width: 150px;
+    height: 65px;
+    background: rgba(241, 216, 243, 0.5);
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .collections-btn>button {
+        font-size: 18px;
+        height: 50px;
+    }
+}
+
+
+
+.see-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-see {
+    width: 115px;
+height: 41px;
+margin: 0;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #49184E;
+border: none;
+cursor: pointer;
+background: #F1D8F3;
+}
